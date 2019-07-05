@@ -12,7 +12,7 @@ Projeto de estudo para usar como modelo em outros projetos.
 * MediatR
 * Swagger UI
 
-## Arquiterura
+## Arquitetura
 * Arquitetura completa com preocupações de separação de responsabilidade, SOLID e Clean Code
 * Domain Driven Design
 * Domain Events
