@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestorFinanceiroWeb.Domain\GestorFinanceiroWeb.Domain.csproj" />
+    <ProjectReference Include="..\GestorFinanceiroWeb.Infra.CrossCutting.AspNetFilters\GestorFinanceiroWeb.Infra.CrossCutting.AspNetFilters.csproj" />
+    <ProjectReference Include="..\GestorFinanceiroWeb.Infra.CrossCutting.Identity\GestorFinanceiroWeb.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\GestorFinanceiroWeb.Infra.Data\GestorFinanceiroWeb.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
