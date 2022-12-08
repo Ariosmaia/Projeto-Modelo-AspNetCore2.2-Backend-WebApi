@@ -8,7 +8,7 @@
     <PackageReference Include="Elmah.Io.client" Version="3.4.63" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.20" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Autorest" Version="1.2.1" />
   </ItemGroup>
 
